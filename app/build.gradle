@@ -1,0 +1,56 @@
+apply plugin: "com.android.application"
+apply plugin: "kotlin-android"
+apply plugin: "kotlin-android-extensions"
+apply plugin: "kotlin-kapt"
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.ptut.android.tourmyanmar"
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    implementation SupportLibraries.design
+    implementation SupportLibraries.cardview
+    implementation SupportLibraries.appcompat
+
+    implementation SupportLibraries.constraint
+    implementation SupportLibraries.vectorDrawable
+    testImplementation TestLibraries.junit
+    androidTestImplementation TestLibraries.testRunner
+    androidTestImplementation TestLibraries.espresso
+
+    implementation Libraries.mmTextView
+    implementation Libraries.rxjava
+    implementation Libraries.rxjavaAdapter
+    implementation Libraries.rxjavaRetrofitAdapter
+    implementation Libraries.rxandroid
+
+    implementation Libraries.retrofitGson
+    implementation Libraries.retrofit
+    implementation Libraries.loggingInterceptor
+    implementation Libraries.roomRuntime
+    kapt Libraries.roomCompiler
+    implementation Libraries.lifecycleExtensions
+    kapt Libraries.lifecycleCompiler
+    implementation Libraries.glide
+    annotationProcessor Libraries.glideCompiler
+
+    implementation 'com.github.martinstamenkovski:ARIndicatorView:1.0.0'
+    implementation project(path: ':shared')
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0336FF</color>
+    <color name="colorPrimaryDark">#CC0336FF</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="tour_blue">#0336FF</color>
+    <color name="tour_yellow">#FFDE03</color>
+    <color name="tour_pink">#FF0266</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue_200">#335A29F3</color>
+</resources>
