@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.martinstamenkovski:ARIndicatorView:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/389d0889be38519905415bc3dab29d8f/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/389d0889be38519905415bc3dab29d8f/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.martinstamenkovski/ARIndicatorView/1.0.0/9186c4ba2ccc4f563e8b3571082fe87896db0e44/ARIndicatorView-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

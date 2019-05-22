@@ -3,6 +3,8 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:orientation="vertical"
+        android:foreground="?attr/selectableItemBackground"
+        android:clickable="true"
         android:layout_gravity="top"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
